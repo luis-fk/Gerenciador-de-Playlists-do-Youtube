@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+header {
+  background-color: #000123;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  text-align: center;
+  /* Adiciona esta propriedade para alinhar ao centro */
+  margin-left: 10px;
+  /* Adiciona margem à esquerda para separar do logo */
+}
+
+header img {
+  max-width: 250px;
+  float: left;
+  /* Adiciona esta propriedade para alinhar à esquerda */
+}
+
+form {
+  /*margin: 20px 0;*/
+  display: flex;
+  margin: 10px 0;
+  justify-content: center;
+
+
+
+
+  /* Centraliza horizontalmente os elementos do form */
+}
+
+
+form input {
+  padding: 10px;
+  /**/
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  /* Aumente o tamanho da letra para 20px ou ajuste conforme necessário */
+  width: 450px;
+  border-radius: 20px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+form button {
+  padding: 5px;
+  /* Reduz o padding do botão */
+  width: auto;
+  min-width: 50px;
+  /* Define a largura do botão para se ajustar ao conteúdo */
+  margin-left: 0px;
+  /* Adiciona margem à esquerda para separar da caixa de pesquisa */
+  border-radius: 20px;
+  margin-left: -2px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.round-button {
+  margin-top: 10px;
+  width: 450px;
+  background-color: red;
+  color: #fff;
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 20px;
+  font-family: 'Poppins', sans-serif;
+  /* Define um border-radius de 50% para deixar o botão arredondado */
+  /* Adicione outros estilos de sua preferência, como tamanho, cor de fundo, etc. */
+}
+
+.search-text {
+  margin-bottom: 3px;
+  /* Adicione essa propriedade para definir a cor branca */
+  font-size: 18px;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.white-text {
+  color: #fff;
+  /* Define a cor do texto como branco */
+  font-family: 'Poppins', sans-serif;
+}
+
+.red-text {
+  color: red;
+  /* Define a cor do texto como vermelho */
+  font-family: 'Poppins', sans-serif;
+}
+
+.noMargin {
+  margin: 0px;
+}
+
+.searchVideos {
+  padding-top: 0px;
+  margin-top: 0px;
+  justify-content: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-top: auto;
+  /* Adiciona essa propriedade para alinhar o rodapé na parte inferior */
+}
+
+body {
+  background-color: #000123;
+}

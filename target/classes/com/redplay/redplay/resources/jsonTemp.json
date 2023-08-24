@@ -1,0 +1,14 @@
+{
+    "client_id":"41057799080-qrbf5lv3v15pigjh69kso42389npaj4u.apps.googleusercontent.com",
+    "project_id":"cellular-cider-296921",
+
+    "auth_uri":"https://accounts.google.com/o/oauth2/auth",
+    "token_uri":"https://oauth2.googleapis.com/token",
+
+    "auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret":"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",
+    "refresh_token": "1//044LfNHlX2uuqCgYIARAAGAQSNwF-L9IrWdwsFhHPmltrHOkJwLbK0y_vnrebSOGsFxrQqhCcLd1LoKzIPolHewYqQLj8hD_ud4w",
+
+    "redirect_uris":["https://developers.google.com/oauthplayground"],
+    "javascript_origins":["https://localhost/"]
+}

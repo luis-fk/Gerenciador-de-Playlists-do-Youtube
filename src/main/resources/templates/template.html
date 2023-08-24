@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html>
+<head>
+    <script>function changeBackgroundColor() {
+      var body = document.body;
+      var originalColor = body.style.backgroundColor;
+      
+      if (originalColor === 'red') {
+          body.style.backgroundColor = '';
+      } else {
+          body.style.backgroundColor = 'red';
+      }
+  }</script>
+    <title>Trigonometric Functions</title>
+    <style>
+        body {
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 400px;
+            background-color: #e6e6e6;
+        }
+        
+        th, td {
+            padding: 8px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: #333;
+            color: white;
+        }
+        
+        .red-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #e6e6e6;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .red-button:hover {
+            background-color: #ff4c4c;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript" th:src="@{../static/temp.js}"></script>
+    <table>
+        <thead>
+            <tr>
+                <th>Angle (degrees)</th>
+                <th>Sine</th>
+                <th>Cosine</th>
+                <th>Tangent</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>30</td>
+                <td>0.5</td>
+                <td>0.866</td>
+                <td>0.577</td>
+            </tr>
+            <tr>
+                <td>45</td>
+                <td>0.707</td>
+                <td>0.707</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>60</td>
+                <td>0.866</td>
+                <td>0.5</td>
+                <td>1.732</td>
+            </tr>
+            <tr>
+                <td>90</td>
+                <td>1</td>
+                <td>0</td>
+                <td>Undefined</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div style="text-align: center;">
+        <button class="red-button" onclick="changeBackgroundColor()">Change Color</button>
+    </div>
+</body>
+</html>

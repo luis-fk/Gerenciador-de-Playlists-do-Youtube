@@ -1,0 +1,11 @@
+{
+    "client_id":"167668709264-ccei7e8ujl8372o3mi4jrbo5h7lln62q.apps.googleusercontent.com",
+    "project_id":"redplay-389506",
+
+    "auth_uri":"https://accounts.google.com/o/oauth2/auth",
+    "token_uri":"https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs",
+
+    "client_secret":"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",
+    "refresh_token":"1//04HIR9MKm64FpCgYIARAAGAQSNwF-L9Ir9q40zHhuh1t7LL9tfRxNHqvSPUqK1YccHyWScMaUN3wfuPDsHDCW2OJnMSxKMdsCodw"
+}
